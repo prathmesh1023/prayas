@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DEPARTMENT OF SALES AND TAXES</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" href="logo.jpg" type="image/gif" sizes="16x16">
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay light" style="background-image:url('sealink.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row0">
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row0">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <img src="logo.jpg">
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="Home.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="acts.html">Acts and Rules</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="eservices.html">E-services</a></li>
+          <li><a href="dealerser.html">Dealer's Services</a></li>
+          <li><a href="rti.html">RTI</a></li>
+          <li><a class="drop" href="#">Register</a>
+            <ul>
+              <li><a href="register.html">Dealer Registration</a></li>
+              <li><a href="register_banker.html">Banker Registration</a></li>
+            </ul></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+      <h1 class="headings">Login</h1>
+        <form class="modal-content animate" action="">
+         <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <select name="typeChoice" tabindex="3" >       
+      <option value="">Choose one</option>
+      <option value="DEALER">DEALER</option>
+      <option value="BANKER">BANKER</option>
+      <option value="EMPLOY">EMPLOYEE</option>
+      </select>
+      <button type="submit" class="btn">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+
+  </form>
+    
+    </div>
+      <div id="comments">
+  
+</div>
+</div>
+
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="http://www.mahavat.gov.in/Mahavat/index.jsp">Department of Sales and Taxes</a></p>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
